@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Link to java script file -->
+    <script src="js/exercise2.js" defer></script>
+
+</head>
+<body>
+    <form action="exercise2.php" method="POST">
+        <fieldset>
+            <legend>User Registration</legend>
+
+            <div>
+                <label for="FirstName">First Name</label>
+                <input type="text" required pattern="[A-z][a-z]+" id="FirstName" name="FirstName">
+            </div>
+
+            <div>
+                <label for="LastName">Last Name</label>
+                <input type="text" required pattern="[A-z][a-z]+" id="LastName" name="LastName">
+            </div>
+
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" required id="Email" name="Email">
+            </div>
+
+            <div>
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="Password" minlength="7">
+            </div>
+
+            <div>
+                <label for="ConfirmPassword">Confirm Password</label>
+                <input type="password" name="ConfirmPassword" id="ConfirmPassword" minlength="7">
+            </div>
+
+            <input type="submit" value="Complete Registration">
+
+        </fieldset>
+    </form>
+</body>
+</html>
