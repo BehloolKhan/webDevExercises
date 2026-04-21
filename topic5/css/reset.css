@@ -1,0 +1,9 @@
+body, article, section, div, h2, h1, p, figure, figcaption, h3, ul{
+
+    padding:0px;
+    margin:0px;
+    font-size: 100%;
+    border: 0;
+    vertical-align: baseline;
+
+}

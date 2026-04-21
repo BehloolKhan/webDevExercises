@@ -1,0 +1,183 @@
+/************************************************/
+/* Modifying the width of images in my picture */
+
+#myPicture {
+
+    width:15rem;
+}
+
+.position{
+
+    width:4rem;
+}
+
+/************************************************/
+
+article {
+
+    margin:0.5rem;
+    display:grid;
+    /* Going to use grid template areas */
+    gap:0.5rem;
+    grid-template-areas: 
+    'header header header header header'
+    'Research myself myself myself Hobbies'
+    'links myself myself myself Movies'
+    'Skills Education Education Education Education'
+    'aside aside aside aside aside';
+    font-family:"Comfortaa";
+}
+
+
+h3 {
+
+    background-color:#f79999;
+    padding:0.5rem;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+}
+
+/***********************************************************/
+/* Css relating to the header elements and its sub elements*/
+header {
+
+    background-color:#f79999;
+    color:white;
+    padding:1rem;
+    grid-area:header;
+
+}
+
+#navContainer {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navContainerList {
+
+    display:flex;
+    gap:1rem;
+}
+/***********************************************************/
+
+/* defining the grid areas */
+#ResearchInterests {
+
+    grid-area:Research;
+    padding:0.5rem;
+    background-color:rgb(185, 243, 200);
+    margin:0.5rem;
+    color:rgb(26, 209, 75)
+
+}
+
+#AboutMySelf {
+
+    grid-area: myself;
+    display:flex;
+    flex-direction:row;
+    margin:1rem;
+
+}
+
+#linksToOtherSections {
+
+    grid-area:links;
+    height:6rem;
+    color:#f97676;
+}
+
+#Movies {
+
+    grid-area:Movies;
+    height:10rem;
+
+}
+
+#Hobbies {
+
+    grid-area:Hobbies;
+    height:8rem;
+}
+
+/******************************/
+/* Css relating to skills section */
+#Skills {
+
+    grid-area:Skills;
+
+}
+
+#SkillsSection {
+
+    vertical-align: middle;
+    display:grid;
+    grid-template-rows: repeat(3, auto);
+    gap:0.7rem;
+    
+
+}
+
+.positionContainer{
+
+    display:flex;
+}
+
+/******************************/
+
+
+#Education {
+
+    grid-area:Education;
+    padding:1rem;
+}
+
+aside {
+
+    grid-area:aside;
+}
+
+
+
+
+/********************************************/
+/*css relating to multiple similair elements*/
+
+#Movies, #Hobbies, #linksToOtherSections, #Skills{
+
+    padding:0.5rem;
+    background-color:rgb(221, 217, 217);
+    margin:0.5rem;
+
+}
+
+.SubSectionContainer{
+
+    background-color:white;
+}
+
+.SubSectionContainer ul {
+
+    margin-top: 0.5rem;
+    margin-bottom:0.5rem;
+    margin-right:0.5rem;
+    margin-left:0.5rem;
+}
+
+
+
+.list {
+
+    display:flex;
+    flex-direction: column;
+    gap:0.3rem;
+}
+
+/********************************************/
+
+
+
+
