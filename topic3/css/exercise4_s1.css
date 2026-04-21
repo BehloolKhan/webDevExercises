@@ -1,0 +1,58 @@
+/*dealing with the top part of the page and its decendants*/
+
+header {
+
+    color:white;
+    background-color: blue;
+    font-size: 1em;
+    padding:1%;
+    margin-bottom:5%;
+    margin-right:5%;
+    margin-left:5%;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h3 {
+
+    margin-bottom: 1.5%;
+}
+body {
+    background-color: #FAEC55;
+
+}
+
+nav {
+
+    background-color: aqua;
+}
+
+article {
+    font-family:"Verdana"
+}
+
+p {
+    font-family:"Georgia"
+}
+
+a {
+    font-size:1.5em;
+    font-weight: bold;
+    padding:1%;
+}
+
+#mainBody {
+
+    padding: 2%;
+    background-color: white;
+    margin: 5%;
+}
+
+footer {
+    background-color: blueviolet;
+    padding:1%;
+    margin:5%;
+}
+

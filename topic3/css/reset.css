@@ -1,0 +1,8 @@
+
+html, body, article, div, body, p, a, nav, footer, h1, h3{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+}

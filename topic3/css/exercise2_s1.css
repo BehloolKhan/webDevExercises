@@ -1,0 +1,16 @@
+div {
+
+    padding: 2cm;
+    background-color: aqua;
+    font-size: 19pt;
+}
+
+strong {
+
+    font-size:21;
+}
+
+p, ul {
+
+    background-color: aqua;
+}
