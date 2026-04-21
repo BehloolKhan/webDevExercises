@@ -1,0 +1,26 @@
+form {
+
+    background-color: yellow;
+    padding: 2rem;
+}
+
+fieldset {
+
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    gap:2rem;
+    padding:1rem;
+}
+
+button {
+
+    background-color: rgb(19, 122, 248);
+    color:white;
+    padding:1rem;
+    border-radius: 0.3rem;
+}
+
+a {
+    text-align: center;
+}

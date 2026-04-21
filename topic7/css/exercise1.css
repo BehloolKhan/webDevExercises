@@ -1,0 +1,26 @@
+img {
+
+    width:80%;
+}
+
+header {
+
+
+    padding:0.5rem;
+    border:2pt solid green;
+    text-align: center;
+}
+
+
+article {
+
+    text-align:center;
+    padding:1.5rem;
+} 
+
+button {
+
+    background-color: rgb(55, 144, 55);
+    color:rgb(220, 217, 217);
+    border-color: rgb(55, 144, 55);
+}

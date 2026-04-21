@@ -1,0 +1,6 @@
+article, body, head, button, div {
+    padding:0px;
+    font-size: 100%;
+    margin: 0px;
+    vertical-align: baseline;
+}
