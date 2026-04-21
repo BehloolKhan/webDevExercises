@@ -1,0 +1,8 @@
+table, caption, tbody, thead, tr, td, th, form, fieldset, div, legend, input, label, h1{
+
+    padding:0rem;
+    margin:0rem;
+    vertical-align: baseline;
+    font-size: 100%;
+    
+}
