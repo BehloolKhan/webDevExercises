@@ -1,0 +1,47 @@
+/*adjusting the properties of the root element so we can use rem*/
+html {
+    font-family: "Lexend Deca", "Arial";
+
+}
+
+caption {
+
+    background-color:red;
+    color:white;
+    font-size:2rem;
+    font-weight:bold;
+    padding:0.5rem;
+}
+
+
+th, td {
+    border:solid 1pt black;
+    text-align: center;
+
+}
+
+/*These styles manipulate images dimenions and styling*/
+
+/* This styling is for the nested tables */
+.tables {
+    padding:1rem;
+}
+
+.film {
+    
+    width:10rem;
+    vertical-align: middle;
+    border-radius: 2rem;
+    padding:0.5rem;
+    
+}
+
+.actors {
+
+    width:10rem;
+    vertical-align: middle;
+    border-radius: 2rem;
+    padding:0.5rem;
+    margin:0.2rem;
+
+}

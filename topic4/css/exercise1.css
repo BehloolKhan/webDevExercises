@@ -1,0 +1,28 @@
+table {
+
+    font-family: "Lexend Deca", "Arial";
+    border-collapse: collapse;
+}
+
+tr {
+
+    padding:2%;
+}
+table caption {
+
+    background-color: #EBCD2A;
+}
+
+thead, tfoot {
+
+    background-color:grey;
+}
+
+th, td {
+
+    border:solid 1pt black;
+}
+
+#undergraduate {
+    vertical-align: middle;
+}
